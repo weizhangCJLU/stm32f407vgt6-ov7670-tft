@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+X:\cp产品电路+PCB\1.生产中板子\STM32F407VG FSMC开发板\程序\定时器_PWM波\Project\Project.uvproj
+Project File Date:  10/30/2013
+
+<h2>Output:</h2>
+Load "X:\\cp产品电路+PCB\\1.生产中板子\\STM32F407VG FSMC开发板\\程序\\定时器_PWM波\\Project\\Output\\Project.AXF" 
+Load "X:\\cp产品电路+PCB\\1.生产中板子\\STM32F407VG FSMC开发板\\程序\\定时器_PWM波\\Project\\Output\\Project.AXF" 
+Set JLink Project File to "X:\cp产品电路+PCB\1.生产中板子\STM32F407VG FSMC开发板\程序\定时器_PWM波\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Sep  2 2011 17:54:36
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F407VG
+VTarget = 3.351V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+Application running ...

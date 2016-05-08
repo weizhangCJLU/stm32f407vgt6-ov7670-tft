@@ -1,0 +1,4 @@
+Raw RGB 每个像素只有一种颜色（R、G、B中的一种）； 
+RGB 每个像素都有三种颜色，每一个的值在0~255之间； 
+在手机摄像头的测试过程中，由sensor输出的数据就是Raw data（Raw RGB），经过彩色插值就变成RGB
+sensor输出的数据格式，主要分两种：YUV（比较流行），RGB，这就是sonsor的数据输出；这其中的GRB就是Raw RGB，是sensor的bayer阵列获取的数据

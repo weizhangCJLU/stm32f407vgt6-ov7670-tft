@@ -1,0 +1,147 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.16a
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 3 323, 23, LIC=CZLX7-E7NYB-UGV7Q-NAD93-5HIEF-SJ8IR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.16a
+Toolchain Path:  F:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 (build 20)
+Assembler:       Armasm.exe V5.06 (build 20)
+Linker/Locator:  ArmLink.exe V5.06 (build 20)
+Library Manager: ArmAr.exe V5.06 (build 20)
+Hex Converter:   FromElf.exe V5.06 (build 20)
+CPU DLL:         SARMCM3.DLL V5.16a
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.2
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+E:\极翼\OV7675\ov7670驱动备份\定时器_PWM波11.15初稿2---完整图像\Project\Project.uvprojx
+Project File Date:  01/02/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 (build 20)', folder: 'F:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Port407V'
+compiling Camera_OV7670.c...
+..\User\OV7670.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\Camera_OV7670.c(229): warning:  #550-D: variable "cnt" was set but never used
+  	  u32 cnt;
+..\User\Camera_OV7670.c: 2 warnings, 0 errors
+compiling main.c...
+..\User\OV7670.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\hardware_i2c.h(6): warning:  #1295-D: Deprecated declaration hardware_i2c_init - give arg types
+  void hardware_i2c_init();
+..\User\hardware_i2c.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\main.c(66): warning:  #177-D: variable "i" was declared but never referenced
+  	u16 i;
+..\User\main.c: 4 warnings, 0 errors
+compiling sccb_config.c...
+..\User\OV7670.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\sccb_config.c: 1 warning, 0 errors
+compiling hardware_i2c.c...
+..\User\hardware_i2c.h(6): warning:  #1295-D: Deprecated declaration hardware_i2c_init - give arg types
+  void hardware_i2c_init();
+..\User\hardware_i2c.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\hardware_i2c.c(54): warning:  #550-D: variable "timeout" was set but never used
+    uint32_t timeout = TIMEOUT_MAX2;
+..\User\hardware_i2c.c(109): warning:  #550-D: variable "timeout" was set but never used
+    uint32_t timeout = TIMEOUT_MAX2;
+..\User\hardware_i2c.c: 4 warnings, 0 errors
+compiling delay.c...
+..\User\delay.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\delay.c(19): warning:  #1-D: last line of file ends without a newline
+  } 
+..\User\delay.c: 2 warnings, 0 errors
+assembling startup_stm32f4xx.s...
+compiling lcd.c...
+..\User\delay.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\lcd.c(103): warning:  #940-D: missing return statement at end of non-void function "LCD_ReadPoint"
+  }			 
+..\User\lcd.c(264): warning:  #177-D: variable "hsareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+..\User\lcd.c(264): warning:  #177-D: variable "heareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+..\User\lcd.c(264): warning:  #177-D: variable "vsareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+..\User\lcd.c(264): warning:  #177-D: variable "veareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+..\User\lcd.c(265): warning:  #177-D: variable "hsaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+..\User\lcd.c(265): warning:  #177-D: variable "heaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+..\User\lcd.c(265): warning:  #177-D: variable "vsaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+..\User\lcd.c(265): warning:  #177-D: variable "veaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+..\User\lcd.c(542): warning:  #177-D: variable "temp" was declared but never referenced
+  	u16 temp;
+..\User\lcd.c: 11 warnings, 0 errors
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_syscfg.c...
+compiling misc.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_cryp_aes.c...
+compiling stm32f4xx_cryp.c...
+compiling stm32f4xx_cryp_des.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_cryp_tdes.c...
+compiling stm32f4xx_dbgmcu.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_dcmi.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_hash.c...
+compiling stm32f4xx_hash_md5.c...
+compiling stm32f4xx_hash_sha1.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_wwdg.c...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=16382 RO-data=6842 RW-data=48 ZI-data=1648  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\极翼\OV7675\ov7670驱动备份\定时器_PWM波11.15初稿2---完整图像\Project\RTE
+  F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  F:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+Build Time Elapsed:  00:00:35
+</pre>
+</body>
+</html>
