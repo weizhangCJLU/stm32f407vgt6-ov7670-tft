@@ -1,0 +1,2 @@
+# stm32f407vgt6-ov7670-tft
+基于stm32f407vgt6驱动ov7670的TFT实时视频显示
